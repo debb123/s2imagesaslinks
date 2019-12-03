@@ -1,0 +1,20 @@
+table{
+    border: 1px solid black;
+    width: 50%;
+    /* we yse more of percentage % bc we want it to be responsive */
+    color: green !important;
+    /* this is an option to keep and respect the bootstrap without changing the orginal code by using bootstrap */
+}
+
+td{
+    border-bottom: 1px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    text-align: left;
+
+}
+/* we only need a class to be added to the student */
+.students tr:hover{
+    background: #989797;
+}
